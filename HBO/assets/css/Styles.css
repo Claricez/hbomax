@@ -30,19 +30,21 @@
     --form-field-error: rgb(255, 76, 76);
 
     scroll-behavior: smooth;
+    --background-body: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
   }
 
   body{
     font-family: "Quicksand", sans-serif;
-    background-color: var(--btn-bg-color-gradient);
-  
+    background: var(--btn-link-color) ;
+    color: var(--btn-link-bg-color);
+    
   }
 
 
   .menu{
     background-color: var(--primary-color);
     align-items: center;
-    position: fixed;
+   
     width: 100%;
     display: flex;
    
@@ -103,3 +105,12 @@
     background-color: var(--btn-link-bg-color);
     color: var(--btn-link-color);
   }
+
+header{
+  background: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
+  background-size: 400% 400%;
+}
+
+.icons{
+  display: flex;
+}
